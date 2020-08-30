@@ -25,11 +25,15 @@
       </div>
       <p class='site-title center-text big-font'>{{site.title}}</p>
       <div class="flex-container center-row">
-        {% for item in site.data.links %}
-          <a rel="noopener noreferrer" target="_blank" href={{item.href}}>
-            <img alt={{item.alt}} class="link-img" src={{item.src | absolute_url}}/>
-          </a>
-        {% endfor %}
+        <a rel="noopener noreferrer" target="_blank" href={{item.href}}>
+          <img alt={{item.alt}} class="link-img" src="assets/img/email.png"/>
+        </a>
+        <a rel="noopener noreferrer" target="_blank" href={{item.href}}>
+          <img alt={{item.alt}} class="link-img" src="assets/img/github.png"/>
+        </a>
+        <a rel="noopener noreferrer" target="_blank" href={{item.href}}>
+          <img alt={{item.alt}} class="link-img" src="assets/img/linkedin.png"/>
+        </a>
       </div>
     </header>
 
