@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html {
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Roboto', serif;
+
+  padding-top: 15vh;
+}
+
+.site-title {
+  font-family: 'Rock Salt';
+}
+
+.big-font {
+  font-size: 2rem;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-row {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link-img {
+  transition: transform 0.2s ease-in-out;
+  padding: 1em 1em 1em 1em;
+  max-height: 4vh;
+}
+
+.link-img:hover {
+  transform: translate(0px, -20px);
+}
+
+::selection {
+  background: #FFFFFF;
+  color: #0F2027;
+}
+
+hr {
+  border-color: #000000;
+}
+
+.vtimeline-content {
+  transition: .5s ease all;
+  background: none;
+  text-align: right;
+  margin-bottom: 5vh;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .vtimeline-date {
+      position: relative;
+      display: block;
+      top: 0;
+      left: 0;
+      right: auto;
+      background: inherit;
+      text-align: left;
+  }
+
+  .vtimeline-content {
+    text-align: left;
+  }
+}
+
+.content {
+  text-align: center;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+#plane {
+  max-width: 20vh;
+}

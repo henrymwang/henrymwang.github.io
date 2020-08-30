@@ -1,0 +1,8 @@
+title: Henry Wang
+# logo: /assets/img/logo.png
+description: Software Engineer
+# show_downloads: true
+theme: jekyll-theme-minimal
+show_footer: false
+# vertical-timeline w/Liquid
+show_timeline: true

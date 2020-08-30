@@ -1,0 +1,9 @@
+- src: assets/img/email.png
+  href: mailto:henrymw@vt.edu
+  alt: email
+- src: assets/img/github.png
+  href: https://github.com/henrymwang
+  alt: github
+- src: assets/img/linkedin.png
+  href: https://www.linkedin.com/in/henrymwang/
+  alt: linkedin
