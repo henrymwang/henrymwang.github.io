@@ -27,7 +27,7 @@
       <div class="flex-container center-row">
         {% for item in site.data.links %}
           <a rel="noopener noreferrer" target="_blank" href={{item.href}}>
-            <img alt={{item.alt}} class="link-img" src={{item.src}}/>
+            <img alt={{item.alt}} class="link-img" src={{site.baseurl}}/{{item.src}}/>
           </a>
         {% endfor %}
       </div>

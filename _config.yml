@@ -6,3 +6,5 @@ theme: jekyll-theme-minimal
 show_footer: false
 # vertical-timeline w/Liquid
 show_timeline: true
+url: "https://henrymwang.github.io"
+baseurl: /henrymwang.github.io
